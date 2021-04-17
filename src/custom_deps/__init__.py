@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# This file is part of the custom_deps software, a Python module to help
+# This file is part of the CustomDeps software, a Python module to help
 # loading modules from Git repositories checked out to specific commits.
 #
-# Copyright 2018 Nicolas Bruot (https://www.bruot.org/hp/)
+# Copyright 2018, 2021 Nicolas Bruot (https://www.bruot.org/hp/)
 #
 #
 # custom_deps is free software: you can redistribute it and/or modify
