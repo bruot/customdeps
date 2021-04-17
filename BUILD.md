@@ -16,10 +16,16 @@ python -m build
 
 This creates .whl and .tar.gz files in the dist directory.
 
-Upload the files to PyPi with twine:
+Upload the files to PyPi with twine on test.pypi.org:
 
 ```
 python -m twine upload --repository testpypi dist/*
+```
+
+To upload on the real PyPi:
+
+```
+python -m twine dist/*
 ```
 
 
