@@ -1,0 +1,7 @@
+*~
+__pycache__/
+/build/
+/dist/
+/venv/
+/venv-build/
+/src/CustomDeps.egg-info/
