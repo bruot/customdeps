@@ -92,8 +92,8 @@ class GitRepos(object):
             cp.read(path)
             default = cp['DEFAULT']
             default_params = (
-                    ('dev_dir', appdirs.user_data_dir('CustomDeps/dev')), # (key, val)
-                    ('snaps_dir', appdirs.user_data_dir('CustomDeps/snaps')),
+                    ('dev_dir', os.path.join(appdirs.user_data_dir('CustomDeps'), 'dev')), # (key, val)
+                    ('snaps_dir', os.path.join(appdirs.user_data_dir('CustomDeps'), 'snaps')),
                     )
             if any([self._set_default(default, k, v) for k, v in default_params]):
                 # Config file has been edited with new default values
